@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">customRingChart-master</string>
+
+
+    <string name="time_interval_one">0-6点</string>
+    <string name="time_interval_two">6-12点</string>
+    <string name="time_interval_three">12-18点</string>
+    <string name="time_interval_four">18-0点</string>
+</resources>

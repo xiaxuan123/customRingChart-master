@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.nanochap.customringchart_master.CircularGraphView
+        android:id="@+id/circularView"
+        android:layout_width="230dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:min_circle_radio="100"
+        app:ring_width="60"
+        tools:ignore="MissingConstraints" />
+
+    <com.nanochap.customringchart_master.HistogramView
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        app:barShowNumber="4"
+        app:borderColor="@color/color_F1F3F6"
+        app:bottomTextSpace="40dp"
+        app:dataTextColor="@color/color_0C102C"
+        app:dataTextSize="12sp"
+        app:isClickAnimation="true"
+        app:leftTextSpace="10dp" />
+
+
+</LinearLayout>
